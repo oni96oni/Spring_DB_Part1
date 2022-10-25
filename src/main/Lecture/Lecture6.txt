@@ -50,3 +50,14 @@
 
     스프링 예외 추상화 적용
 
+        SQLExceptionTranslator를 사용하여 예외를 추상화
+
+    JDBC 반복 문제 해결 - jdbcTemplate
+        Repository에서있는 반복적인 코드를 줄이기 위해 스프링은 JdbcTemplate을 제공한다.
+        템플릿 콜백 패턴이용!
+
+        굉장히 편하게 이용 가능하다!
+        트랜잭션을 위한 커넥션 동기화와 스프링 예외 변환기도 자동으로 실행해준다!
+
+    정리
+
